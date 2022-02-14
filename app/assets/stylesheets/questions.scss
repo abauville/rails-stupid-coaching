@@ -1,0 +1,20 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.msg-background {
+  margin: 16px;
+  background-color: rgb(203, 203, 203);
+}
+
+.msg-foreground {
+  margin-left: 8px;
+  padding: 8px;
+  background-color:white;
+  h1, p {
+    margin: 0px;
+  }
+}
+
+.msg-foreground.coach {
+  background-color:rgb(255, 255, 196);
+}
